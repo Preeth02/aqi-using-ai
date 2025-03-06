@@ -1,4 +1,8 @@
 import Image from "next/image";
+// e.g., in your _app.tsx or layout.tsx (or at the top of your component)
+import 'leaflet/dist/leaflet.css';
+import 'leaflet-gesture-handling/dist/leaflet-gesture-handling.css';
+
 
 export default function Home() {
   return (
